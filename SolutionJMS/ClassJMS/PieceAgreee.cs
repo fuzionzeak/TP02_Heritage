@@ -11,24 +11,42 @@ namespace ClassJMS
         private DateTime dateAgrement;
         private string nomConstructeur;
 
-        public PieceAgreee(int numSerie, string libelle, int nbHeures, DateTime dateAgrement, string nomConstructeur)
-            : base(numSerie, libelle, nbHeures)
+        public PieceAgreee(int unNumero, string unLibelle, int unNombre, DateTime uneDate, string unConstructeur)
+            : base(unNumero, unLibelle, unNombre)
         {
-            this.dateAgrement = dateAgrement;
-            this.nomConstructeur = nomConstructeur;
+            this.dateAgrement = uneDate;
+            this.nomConstructeur = unConstructeur;
         }
 
-        public void renouvelerAgrement(DateTime nouvelleDate)
+        public DateTime GetDateAgrement()
+        {
+            return this.dateAgrement;
+        }
+        public void RenouvelerAgrement(DateTime nouvelleDate)
         {
             this.dateAgrement = nouvelleDate;
         }
-        /*
+        
         public int CalculerDureeAgrement()
         {
-         TODO
+            return DateTime.Now.Year - this.dateAgrement.Year;
         }
-        */
 
+        public override bool AControler()
+        {
+            if(CalculerDureeAgrement() > 2)
+            {
+                return true;
+            }
+            return false;
+        }
+        public override string ObtenirInfos()
+        {
+            string infos = base.ObtenirInfos();
+            string infosAgrees = "\nConstructeur : " + this.nomConstructeur;
+            string dateAgrees = "\nDate Agrément : " + GetDateAgrement().ToShortDateString();
+            return infos + infosAgrees + dateAgrees;
+        }
 
     }
 }

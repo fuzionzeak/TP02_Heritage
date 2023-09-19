@@ -12,3 +12,14 @@ C:\Users\sophie\Desktop\Annee2019-2020\SLAM2\TD_TP\09TP\SolutionJMS\ClassJMSTest
 D:\Annee2020-2021\B2Conception et developpement applications\TP\06DM\09TP\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CoreCompileInputs.cache
 C:\Users\heuff\TP\02TP-POO_Heritage_C#\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.AssemblyReference.cache
 C:\Users\heuff\TP\02TP-POO_Heritage_C#\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CoreCompileInputs.cache
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.AssemblyReference.cache
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CoreCompileInputs.cache
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\ClassJMSTests.dll
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\ClassJMSTests.pdb
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\ClassJMS.dll
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\ClassJMS.pdb
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CopyComplete
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.dll
+C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.pdb

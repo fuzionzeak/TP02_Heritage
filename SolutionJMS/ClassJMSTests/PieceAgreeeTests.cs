@@ -22,7 +22,7 @@ namespace ClassJMS.Tests
         [TestMethod()]
         public void CalculerDureeAgrementTest()
         {
-            PieceAgreee p = new PieceAgreee(125, "Anémomètre", 1250, new DateTime(2012,03,13), "ZZZ");
+            PieceAgreee p = new PieceAgreee(125, "Anémomètre", 1250, new DateTime(2013,03,13), "ZZZ");
             Assert.AreEqual(DateTime.Now.Year-2013, p.CalculerDureeAgrement());
         }
 

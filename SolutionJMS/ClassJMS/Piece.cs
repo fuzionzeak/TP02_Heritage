@@ -28,7 +28,7 @@ namespace ClassJMS
         {
             return this.numSerie;
         }
-        public string ObtenirInfos()
+        public virtual string ObtenirInfos()
         {
             return this.numSerie + " - " + this.libelle;
         }
