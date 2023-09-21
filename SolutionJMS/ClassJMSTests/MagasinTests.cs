@@ -1,4 +1,4 @@
-﻿/*using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ClassJMS;
 using System;
 using System.Collections.Generic;
@@ -37,11 +37,14 @@ namespace ClassJMS.Tests
         public void ObtenirTauxPNATest()
         {
             // Etape 1 : Instanciation d'un magasin, de 5 pièces agréées et de 3 pièces non agréées
-                       
+            Magasin m = new Magasin();
+            Piece p1 = new PieceAgreee(125, "Anémomètre", 1250, DateTime.Parse("12/03/2013"), "ZZZ");
+            Piece p2 = new PieceAgreee(477, "Truc", 4500, DateTime.Parse("01/05/2015"), "ZZZ");
+            //Piece p3 = new PieceNonAgreee(125, "Anémomètre", 1250, DateTime.Parse("12/03/2013"), "ZZZ");
             // Etape 2 : Ajout des pièces au magasin - utilisation de la méthode SetLesPieces 
-            
+
             // Etape 3 : Vérification du taux de pièces non agréées
-           
+
         }
 
         [TestMethod()]
@@ -58,4 +61,4 @@ namespace ClassJMS.Tests
         }
      
     }
-}*/
+}

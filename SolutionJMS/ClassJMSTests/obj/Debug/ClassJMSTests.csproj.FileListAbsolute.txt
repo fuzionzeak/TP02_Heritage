@@ -14,6 +14,7 @@ C:\Users\heuff\TP\02TP-POO_Heritage_C#\SolutionJMS\ClassJMSTests\obj\Debug\Class
 C:\Users\heuff\TP\02TP-POO_Heritage_C#\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CoreCompileInputs.cache
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.AssemblyReference.cache
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\ClassJMSTests.dll
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\ClassJMSTests.pdb
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\ClassJMS.dll
@@ -23,3 +24,5 @@ C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\bin\Debug\fr\Micro
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.csproj.CopyComplete
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.dll
 C:\Users\heuff\GIRARD\TP02_Heritage\SolutionJMS\ClassJMSTests\obj\Debug\ClassJMSTests.pdb
+=======
+>>>>>>> fa3c150fd27cea87b283bc9dfec48b3736bbf32a

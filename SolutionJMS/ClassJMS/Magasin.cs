@@ -13,12 +13,51 @@ namespace ClassJMS
         #endregion
 
         #region constructeur
-        
+        public Magasin()
+        {
+            this.lesPieces = new List<Piece>();
+        }
         #endregion
 
         #region méthodes
-       
-                
+       public bool AjouterPiece(Piece unePiece)
+        {
+            bool ajout = true;
+            foreach (Piece p in this.lesPieces)
+                if (p.GetNumSerie() == unePiece.GetNumSerie())
+                    ajout = false;
+            if (ajout)
+                this.lesPieces.Add(unePiece);
+            return ajout;
+        }
+         
+        public void afficherMafasin()
+        {
+            foreach (Piece p in this.lesPieces)
+                Console.WriteLine("\n" + p.ObtenirInfos() + "\n--------------------------------------");
+        }
+
+        public double ObtenirTauxPNA()
+        {
+            double nbPNA = 0;
+            foreach (Piece p in this.lesPieces)
+            {
+                if (p is PieceNonAgreee)
+                    nbPNA++;
+            }
+            return nbPNA * 100 / this.lesPieces.Count;
+        }
+
+        public List<Piece> ControlerPieces()
+        {
+            List<Piece> lesPiecesAControler = new List<Piece>();
+            foreach (Piece p in this.lesPieces)
+            {
+                if (p.AControler())
+                    lesPiecesAControler.Add(p);
+            }
+            return lesPiecesAControler;
+        }
                 
         // Méthodes utiles pour les tests unitaires
         public List<Piece> GetLesPieces()

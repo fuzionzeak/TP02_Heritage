@@ -20,7 +20,11 @@ namespace ClassJMS
 
         public DateTime GetDateAgrement()
         {
+<<<<<<< HEAD
             return this.dateAgrement;
+=======
+            return dateAgrement;
+>>>>>>> fa3c150fd27cea87b283bc9dfec48b3736bbf32a
         }
         public void RenouvelerAgrement(DateTime nouvelleDate)
         {
@@ -30,6 +34,18 @@ namespace ClassJMS
         public int CalculerDureeAgrement()
         {
             return DateTime.Now.Year - this.dateAgrement.Year;
+<<<<<<< HEAD
+=======
+        }
+
+        public override bool AControler()
+        {
+            if(CalculerDureeAgrement() > 2)
+            {
+                return true;
+            }
+            return false;
+>>>>>>> fa3c150fd27cea87b283bc9dfec48b3736bbf32a
         }
 
         public override bool AControler()

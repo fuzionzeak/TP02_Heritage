@@ -22,11 +22,18 @@ namespace ClassJMS
         }
         #endregion
         #region methodes
+        
+
         public string GetEtat()
         {
             return this.etat;
         }
 
+        public string ObtenirInfos()
+        {
+            string infos = this.GetNumSerie() + " - " this.Ge;
+            infos += "\nEtat : " + this.etat;
+        }
 
         public void ChangerEtat (string unEtat)
         {
