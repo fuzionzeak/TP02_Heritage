@@ -22,6 +22,27 @@ namespace ClassJMS
         }
         #endregion
         #region methodes
-        
+        public string GetEtat()
+        {
+            return this.etat;
+        }
+
+
+        public void ChangerEtat (string unEtat)
+        {
+            this.etat = unEtat.ToUpper();
+        }
+
+        public override bool AControler()
+        {
+            bool controleOK = false;
+            if(this.etat == "VERT" && base.nbHeures >= this.seuil)
+            {
+                controleOK = true;
+                this.etat = "ORANGE";
+            }
+            return controleOK;
+        }
+
     }
 }
